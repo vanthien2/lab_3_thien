@@ -1,7 +1,38 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿
+.navbar-inverse {
+    background-color: #f4194c;
+    border-color: #09d70c;
 }
+    .navbar-inverse .navbar-nav > li > a {
+        color: #c2ee14;
+    }
+    .navbar-inverse .navbar-brand {
+        color: #d8e30e;
+    }
+.course {
+    list-style: none;
+    margin-top: 100px;
+}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+.course > li .date {
+    text-align: center;
+    background-color: #f4194c;
+    color: white;
+  width: 60px;
+ border-radius: 8px;
+        }
+
+        .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -22,3 +53,4 @@ select,
 textarea {
     max-width: 280px;
 }
+
